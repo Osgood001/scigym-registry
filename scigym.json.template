@@ -1,0 +1,31 @@
+{
+  "scigym_version": "1.0",
+  "name": "your-gym",
+  "description": "One-sentence description of what this gym simulates or optimizes",
+  "domain": "your-domain",
+  "gym_id": "YourEnv-v0",
+  "paper": "https://doi.org/...",
+  "benchmark": {
+    "source": "paper",
+    "metrics": ["metric_1", "metric_2"],
+    "validated": true,
+    "script": "benchmark/validation/test_gym.py"
+  },
+  "simulator": {
+    "backend": "your-physics-lib",
+    "fidelity_levels": ["low", "medium", "high"],
+    "interfaces": ["gymnasium"]
+  },
+  "hardware_interface": {
+    "available": false,
+    "sdk": "your-sdk-name",
+    "setup_doc": "docs/hardware-setup.md"
+  },
+  "autorun": {
+    "ready": false,
+    "cryochamber": false,
+    "claude_md": null
+  },
+  "authors": ["your-github-username"],
+  "license": "MIT"
+}
