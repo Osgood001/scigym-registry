@@ -4,7 +4,7 @@
 > paper/hardware-verified benchmarks, physics-based simulators, real hardware interfaces,
 > and optional 24/7 autonomous experimentation via [Cryochamber](https://github.com/nickel-org/cryochamber).
 >
-> Last updated: 2026-04-16 08:05 UTC · 0 environments
+> Last updated: 2026-04-17 08:05 UTC · 1 environments
 
 ## Add Your Gym
 
@@ -24,6 +24,7 @@ gh api repos/OWNER/REPO/topics -X PUT \
 
 | Repo | Domain | Benchmark | Sim Fidelity | Hardware | AutoRun | ⭐ | Updated |
 |------|--------|-----------|-------------|----------|---------|-----|---------|
+| [agent](https://github.com/dkkyjy/agent) | — | — | — | ⚙️ | — | 0 | 2026-04-17 |
 
 ---
 
